@@ -17,7 +17,7 @@ export function Header() {
         <div className="header-content">
           <div>
             <a href="#home" className="logo">
-              Joey Maton | Développeur Frontend
+              Devfolio
             </a>
           </div>
 
