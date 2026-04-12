@@ -17,7 +17,7 @@ export function Header() {
         <div className="header-content">
           <div>
             <a href="#home" className="logo">
-              DevPortfolio
+              Devfolio
             </a>
           </div>
 
