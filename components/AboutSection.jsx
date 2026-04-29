@@ -1,57 +1,44 @@
 export function AboutSection() {
   const highlights = [
     {
-      icon: "Code",
-      title: "Code Propre",
-      description: "J'écris du code maintenable et bien documenté"
+      icon: "Apprentissage",
+      title: "Apprentissage continu",
+      description: "J’apprends régulièrement de nouvelles technologies et améliore mes compétences"
     },
     {
-      icon: "Users",
-      title: "Collaboration",
-      description: "Peu d'expérience en équipe et méthodologies modernes"
+      icon: "Autonomie",
+      title: "Autonomie",
+      description: "Capable de travailler seul, de chercher et trouver des solutions efficacement"
     },
     {
-      icon: "Zap",
-      title: "Performance",
-      description: "Optimisation et bonnes pratiques pour des apps rapides"
+      icon: "Curiosité",
+      title: "Curiosité technique",
+      description: "J’aime comprendre comment les choses fonctionnent et tester de nouvelles approches"
     },
     {
-      icon: "Award",
-      title: "Qualité",
-      description: "Tests automatisés et déploiement continu"
+      icon: "Pratique",
+      title: "Expérience pratique",
+      description: "Projets personnels pour mettre en pratique et progresser concrètement"
     }
   ];
 
   const getIcon = (iconName) => {
     switch(iconName) {
-      case "Code":
+      case "Apprentissage":
         return (
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-            <polyline points="16,18 22,12 16,6"></polyline>
-            <polyline points="8,6 2,12 8,18"></polyline>
-          </svg>
+          <i class="fa-solid fa-rocket"></i>
         );
-      case "Users":
+      case "Autonomie":
         return (
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-            <circle cx="9" cy="7" r="4"></circle>
-            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-          </svg>
+          <i class="fa-solid fa-magnifying-glass"></i>
         );
-      case "Zap":
+      case "Curiosité":
         return (
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-            <polygon points="13,2 3,14 12,14 11,22 21,10 12,10 13,2"></polygon>
-          </svg>
+          <i class="fa-regular fa-lightbulb"></i>
         );
-      case "Award":
+      case "Pratique":
         return (
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-            <circle cx="12" cy="8" r="7"></circle>
-            <polyline points="8.21,13.89 7,23 12,20 17,23 15.79,13.88"></polyline>
-          </svg>
+          <i class="fa-solid fa-screwdriver-wrench"></i>
         );
       default:
         return null;
@@ -84,12 +71,12 @@ export function AboutSection() {
           <div className="about-content">
             <div>
               <p>
-                Diplômé en informatique, je me spécialise dans le développement front-end, en créant des sites web modernes et dynamiques à partir de maquettes.
-                 J’utilise HTML, CSS, JavaScript et React pour transformer des designs en expériences interactives, alliant esthétique et performance.
+                Développeur front-end, je conçois des interfaces web modernes en mettant l’accent sur l’expérience utilisateur, 
+                la performance et la clarté du code. J’aime transformer des idées ou des maquettes en applications concrètes, fluides et agréables à utiliser.
               </p>
               <p>
-                Quand je ne code pas, j’aime explorer de nouvelles technologies,
-                améliorer mes compétences en front-end et suivre les tendances du web pour rester à la pointe.
+                Quand je ne code pas, j’aime explorer de nouvelles technologies afin
+                d'apprendre ou améliorer mes compétences en front-end.
               </p>
             </div>
 

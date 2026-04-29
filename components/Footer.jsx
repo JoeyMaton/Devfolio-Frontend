@@ -14,7 +14,7 @@ export function Footer() {
           <div className="footer-grid">
             {/* Brand */}
             <div className="footer-brand">
-              <h3>DevPortfolio</h3>
+              <h3>Devfolio</h3>
               <p>
                 Développeur web passionné créant des expériences digitales modernes et performantes.
               </p>

@@ -5,7 +5,7 @@ export function ProjectsSection() {
       description: "Booki est un projet réalisé dans le cadre de ma formation de Développeur Web chez OpenClassrooms. À partir d’une maquette fournie, j’ai assuré l’intégration complète de la page d’accueil d’une agence de voyage fictive, en respectant les standards du web, la fiche technique et en utilisant les technologies HTML et CSS. Fonctionnalité visée : Le responsive",
       image: "./components/assets/booki.png",
       technologies: ["Html", "Css"],
-      liveUrl: "#",
+      liveUrl: "booki.joey-maton.dev",
       githubUrl: "https://github.com/JoeyMaton/Booki"
     },
     {
@@ -13,7 +13,7 @@ export function ProjectsSection() {
       description: "OhMyFood est un projet réalisé dans le cadre de ma formation de Développeur Web chez OpenClassrooms. Sur la base d’une maquette fournie, j’ai pris en charge l’intégration de la version mobile d’un site de foodtech, en y intégrant des animations CSS pour enrichir l’expérience utilisateur. Fonctionnalité visée : Dynamiser un site web avec des animations",
       image: "./components/assets/ohmyfood.png",
       technologies: ["Html", "Css"],
-      liveUrl: "#",
+      liveUrl: "ohmyfood.joey-maton.dev",
       githubUrl: "https://github.com/JoeyMaton/JoeyMaton.github.io"
     },
     {
@@ -21,7 +21,7 @@ export function ProjectsSection() {
       description: "GameOn est un projet réalisé dans le cadre de ma formation de Développeur Web chez OpenClassrooms. Sur la base d’une maquette et d’un site de référence fournis, j’ai réalisé l’intégration d’une landing page en HTML, CSS et JavaScript, dédiée à l’inscription à un concours national de jeux vidéo. Fonctionnalité visée : Création d'une landing page.",
       image: "./components/assets/gameon.png",
       technologies: ["Html", "Css","JavaScript"],
-      liveUrl: "#",
+      liveUrl: "gameon.joey-maton.dev",
       githubUrl: "https://github.com/JoeyMaton/GameOn"
     },
     {
@@ -29,7 +29,7 @@ export function ProjectsSection() {
       description: "FishEye est un projet réalisé dans le cadre de ma formation de Développeur Web chez OpenClassrooms. En m’appuyant sur une maquette fournie, j’ai développé un site web pour une plateforme dédiée aux photographes, conçu pour leur permettre de présenter et partager leurs galeries de photos. Fonctionnalité visée : Gestion de la modal",
       image: "./components/assets/fisheye.png",
       technologies: ["Html", "Css","JavaScript"],
-      liveUrl: "#",
+      liveUrl: "fisheye.joey-maton.dev",
       githubUrl: "https://github.com/JoeyMaton/FishEye"
     },
     {
@@ -37,7 +37,7 @@ export function ProjectsSection() {
       description: "Les Petits Plats est un projet réalisé dans le cadre de ma formation de Développeur Web chez OpenClassrooms. En me basant sur une maquette fournie, j’ai développé une page web pour un site de recettes de cuisine, en veillant au respect du design et à la qualité de l’intégration. Fonctionnalité visée : Développement d'un algorithme de recherche",
       image: "./components/assets/lespetitsplats.png",
       technologies: ["Html", "Css","JavaScript"],
-      liveUrl: "#",
+      liveUrl: "lespetitsplats.joey-maton.dev",
       githubUrl: "https://github.com/JoeyMaton/LesPetitsPlats"
     },
     {
@@ -45,16 +45,16 @@ export function ProjectsSection() {
       description: "Billed est un projet réalisé dans le cadre de ma formation de Développeur Web chez OpenClassrooms. Dans le cadre de ce projet, j’ai débogué et amélioré une application existante en JavaScript et Jest, en intégrant des API pour assurer des échanges efficaces avec l’application. Fonctionnalité visée : Débogger une application et création de tests unitaires",
       image: "./components/assets/Billed.png",
       technologies: ["Html", "Css","JavaScript","Jest"],
-      liveUrl: "#",
+      liveUrl: "billed.joey-maton.dev",
       githubUrl: "https://github.com/JoeyMaton/Billed"
     },
     {
-      title: "DevPortefolio",
-      description: "DevPortefolio est un projet réalisé dans le cadre de mon apprentissage personnel. L’objectif est de présenter l’ensemble de mes projets réalisés à ce jour, ainsi que les technologies que je maîtrise.  Fonctionnalité visée : Création d'une application React ",
+      title: "Devfolio",
+      description: "Devfolio est un projet réalisé dans le cadre de mon apprentissage personnel. L’objectif est de présenter l’ensemble de mes projets réalisés à ce jour, ainsi que les technologies que je maîtrise.  Fonctionnalité visée : Création d'une application React ",
       image: "./components/assets/portefolio.png",
       technologies: ["React"],
-      liveUrl: "#",
-      githubUrl: "#"
+      liveUrl: "devfolio.joey-maton.dev",
+      githubUrl: "https://github.com/JoeyMaton/Devfolio-Frontend"
     },
   ];
 
