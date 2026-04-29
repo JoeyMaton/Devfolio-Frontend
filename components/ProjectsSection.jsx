@@ -120,7 +120,7 @@ export function ProjectsSection() {
 
         <div style={{ textAlign: "center", marginTop: "3rem" }}>
           <a 
-            href="https://github.com" 
+            href="https://github.com/JoeyMaton?tab=repositories" 
             target="_blank" 
             rel="noopener noreferrer"
             className="btn btn-outline btn-lg"
