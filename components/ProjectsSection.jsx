@@ -56,6 +56,14 @@ export function ProjectsSection() {
       liveUrl: "https://devfolio.joey-maton.dev",
       githubUrl: "https://github.com/JoeyMaton/Devfolio-Frontend"
     },
+    {
+      title: "Pokenative",
+      description: "Pokenative est un Pokédex mobile des 151 premiers Pokémon créé avec React Native et Expo pour explorer le développement mobile cross-platform. Fonctionnalité visée : Concevoir une application mobile avec React Native et Expo. ",
+      image: "./components/assets/pokenative.png",
+      technologies: ["React-Native", "Expo"],
+      liveUrl: "https://pokenative.joey-maton.dev",
+      githubUrl: "https://github.com/JoeyMaton/pokenative-app"
+    },
   ];
 
   return (
