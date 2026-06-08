@@ -1,3 +1,5 @@
+import photoProfil from "../components/assets/Photo_de_profil.jpg";
+
 export function HeroSection() {
   return (
     <section id="home" className="hero">
@@ -65,7 +67,7 @@ export function HeroSection() {
           <div className="hero-image-container">
             <div className="hero-image-wrapper">
               <img
-                src="./components/assets/Photo_de_profil.jpg"
+                src={photoProfil}
                 alt="Workspace de développeur"
                 className="hero-image"
               />
