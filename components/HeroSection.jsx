@@ -65,7 +65,7 @@ export function HeroSection() {
           <div className="hero-image-container">
             <div className="hero-image-wrapper">
               <img
-                src="https://images.unsplash.com/photo-1593442257276-1895e27c8ed6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkZXZlbG9wZXIlMjB3b3Jrc3BhY2UlMjBtb2Rlcm58ZW58MXx8fHwxNzU4NDY4MDI0fDA&ixlib=rb-4.1.0&q=80&w=1080"
+                src="./components/assets/Photo_de_profil.jpg"
                 alt="Workspace de développeur"
                 className="hero-image"
               />
