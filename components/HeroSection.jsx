@@ -1,4 +1,4 @@
-import photoProfil from "../components/assets/Photo_de_profil.jpg";
+import photoProfil from "../components/assets/Photo_de_Profil.jpg";
 
 export function HeroSection() {
   return (
